@@ -1,0 +1,7 @@
+** 工作笔记
+
+*** CNV
+
+1. 以下CNV可以验证
+
+MET、EGFR、ERBB2、FGFR3、IDH1

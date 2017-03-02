@@ -1,0 +1,26 @@
+
+* 加班调休记录
+
+*** TODO 加班 [20%]
+
+**** TODO 加班 半天
+     SCHEDULED: <2017-02-11 Sat>
+
+**** TODO 加班 半天
+     SCHEDULED: <2017-02-12 Sun>
+
+**** TODO 加班 1天
+     SCHEDULED: <2017-02-18 Sat> 
+
+**** DONE 加班 半天
+     DEADLINE: <2017-02-24 Fri> SCHEDULED: <2017-02-19 Sun>
+
+**** TODO 加班 1天
+	 SCHEDULED: <2017-02-25 Sat>
+
+***** Help
+
+1. M-S-Ret 添加 *
+2. C-c C-t 添加 TODO DONE
+3. C-c C-s 添加 SCHEDULED
+4. C-c C-d 添加 DEADLINE

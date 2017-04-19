@@ -1,22 +1,35 @@
 
 * 加班调休记录
 
-*** TODO 加班 [20%]
+*** TODO 加班 [83%]
 
-**** TODO 加班 半天
-     SCHEDULED: <2017-02-11 Sat>
+**** DONE 加班 半天
+	 DEADLINE: <2017-03-03 Fri> SCHEDULED: <2017-02-11 Sat>
 
-**** TODO 加班 半天
-     SCHEDULED: <2017-02-12 Sun>
+**** DONE 加班 半天
+	 DEADLINE: <2017-03-24 Fri> SCHEDULED: <2017-02-12 Sun> 
 
-**** TODO 加班 1天
-     SCHEDULED: <2017-02-18 Sat> 
+**** DONE 加班 1天
+     SCHEDULED: <2017-02-18 Sat> 完成
 
 **** DONE 加班 半天
      DEADLINE: <2017-02-24 Fri> SCHEDULED: <2017-02-19 Sun>
 
-**** TODO 加班 1天
-	 SCHEDULED: <2017-02-25 Sat>
+**** DONE 加班 1天
+	 DEADLINE: <2017-04-05 Wed> SCHEDULED: <2017-02-25 Sat> 
+
+**** TODO 加班1天
+	 SCHEDULED: <2017-03-04 Sat>
+
+*** TODO 加班1天
+    SCHEDULED: <2017-03-12 Sat>
+
+*** TODO 加班1天
+	 SCHEDULED: <2017-04-02 Sun>
+
+*** TODO 加班1天
+	 SCHEDULED: <2017-04-07 Fri>
+
 
 ***** Help
 

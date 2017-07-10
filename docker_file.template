@@ -1,0 +1,28 @@
+From ubuntu:14.04
+
+MAINTAINER pidong.li@genetronhealth.com
+
+RUN echo deb http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse>/etc/apt/sources.list
+RUN echo deb http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb-src http://mirrors.163.com/ubuntu/ trusty main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb-src http://mirrors.163.com/ubuntu/ trusty-security main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb-src http://mirrors.163.com/ubuntu/ trusty-updates main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb-src http://mirrors.163.com/ubuntu/ trusty-proposed main restricted universe multiverse>>/etc/apt/sources.list
+RUN echo deb-src http://mirrors.163.com/ubuntu/ trusty-backports main restricted universe multiverse>>/etc/apt/sources.list
+
+RUN cat /etc/apt/sources.list
+
+RUN \
+ DEBIAN_FRONTEND=noninteractive apt-get update && \
+ DEBIAN_FRONTEND=noninteractive apt-get -y install python2.7 python-pip && \
+ DEBIAN_FRONTEND=noninteractive apt-get -y autoremove && \
+ DEBIAN_FRONTEND=noninteractive apt-get clean
+
+RUN pip install click
+
+RUN mkdir /bioapp/
+COPY ./hp_find.py /bioapp/
+
